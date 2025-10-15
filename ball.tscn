@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://fahqrwuycj6"]
+
+[ext_resource type="Script" uid="uid://c4neq2fyevalo" path="res://ball.gd" id="1_41u45"]
+[ext_resource type="Texture2D" uid="uid://duyacrqiu4jmb" path="res://images/—Pngtree—white crumpled crushed scrunched paper_19782197.png" id="2_ktgx5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y32ns"]
+radius = 16.0
+
+[node name="ball" type="Area2D"]
+monitoring = false
+script = ExtResource("1_41u45")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+modulate = Color(18.892157, 18.892157, 18.892157, 1)
+position = Vector2(0.5, 1)
+scale = Vector2(0.18, 0.18)
+texture = ExtResource("2_ktgx5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.5, 1)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_ktgx5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CircleShape2D_y32ns")
