@@ -6,4 +6,4 @@
 
 ![in Game Screenshot](images/Screenshot.png)
 
-_This game is a test for [GD AI MCP](https://gdaimcp.com/) and [Ziva.sh](https://ziva.sh/)_
+_This game is a test for [GD AI MCP](https://gdaimcp.com/) and [Ziva.sh](https://ziva.sh/)_ and finished in 2 Hours 12 minutes.
